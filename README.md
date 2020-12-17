@@ -71,16 +71,16 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 
 
 
-## Codigos Utilizados
+## Códigos Utilizados
 
 ```
-$npx create-react-app dark-mode-react
+$ npx create-react-app dark-mode-react
 
-$pm start
+$ npm start
 
-$npm i styled-components@5.2.1
+$ npm i styled-components@5.2.1
 
-$npm i react-icons@3.11.0
+$ npm i react-icons@3.11.0
 
 ```
 
@@ -91,3 +91,20 @@ $npm i react-icons@3.11.0
 ![](images/2.png)
 
 ![](images/3.png)
+
+
+## Producción GitHub Pages
+
+```
+$ npm run build
+
+$ npm i --g http-server
+
+$ cd build
+
+$ http-server -o
+
+
+Cambiar nombre carpeta build por docs
+
+```
